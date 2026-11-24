@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="Order_manage.css">
+</head>
+<body>
+
+    <main>
+       <div class="container">
+         
+
+            <h2>Customer Orders</h2>
+            <hr>
+
+            <div class="top-bar">
+            <input type="text" id="searchInput" placeholder="Search order / customer">
+
+            <select id="filterStatus">
+                    <option value="All">All Statuses</option>
+                    <option>Pending</option>
+                    <option>Processing</option>
+                    <option>Delivered</option>
+                    <option>Cancelled</option>
+            </select>
+                          <button class="add-btn" id="addOrderBtn">+ Add Order</button>
+            </div>
+
+                <div id="ordersList"></div>
+        </div>
+
+    </main>
+ <script src="Order_manage.js"></script>   
+</body>
+</html>
